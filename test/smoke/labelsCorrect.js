@@ -17,7 +17,8 @@ describe('Labels are Correct', function () {
         expect(instruction).toEqual(exp.instruction);
     });
 
-    /*commented until bug fix
+    /*
+
 
     it('TC-017 Name field label = 1.What is your Hero\'s name?', function () {
         let label = $$(sel.requiredLabel)[0].getText();
@@ -30,7 +31,8 @@ describe('Labels are Correct', function () {
         expect(label).toEqual(exp.genderLabel);
     });
 
-    */
+     */
+
 
     it('TC-019 The first button label = "he"', function () {
         let buttonHe = $$(sel.radioButtonsLabel)[0].getText();

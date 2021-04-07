@@ -11,7 +11,9 @@ const elements = {
     "imageLabel": ".ant-form-item-label",
     "image": "span.ant-upload",
     "submit": ".ant-btn",
-    "tryAgain": ".btn-primary"
+    "tryAgain": ".btn-primary",
+    "errorMessage": ".ant-form-item-explain",
+    "radioSelections": ".ant-radio-input"
 
 }
 
